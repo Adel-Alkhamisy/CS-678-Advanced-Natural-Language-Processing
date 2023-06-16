@@ -1,0 +1,6 @@
+--find-links https://download.pytorch.org/whl/torch_stable.html
+transformers==3.4.0
+torch==1.8.1+cu111
+protobuf~=3.19.0
+tensorboardX
+tensorboard
