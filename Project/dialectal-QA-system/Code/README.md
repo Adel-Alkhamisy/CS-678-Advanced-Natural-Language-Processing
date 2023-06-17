@@ -1,19 +1,8 @@
-## Project: CS 678 : Advanced NLP
-
-- src: Folder contain code to run the pretained models and baseline
-- data: Input data for model (Inside data folder put data from https://github.com/ffaisal93/DialQA/tree/main/data)
-- run.sh: Main file to run different models with hyper-parameter tunning.
-- plots.py: File to generate the plots and graphs.
 
 ### Requirements and installation 
 ```
 ./install.sh
 ```
-
-### Baseline (ASR QA)
-
-The task is to perform Extractive-QA using dialectal questions (Speech to text Outputs). We use the Google Speech API with regional units (eg. en-US, sw-TZ) to perform speech to text conversion. The training file is based on huggingface's [`run_squad.py`] file.
-
 
 #### Training baseline:
 
